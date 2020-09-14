@@ -1,0 +1,114 @@
+{
+  "total" : 16,
+  "items" : [ {
+    "uid" : "b5b87e641a18e80e118d4b462a2e5040",
+    "name" : "运动模块-我的状态测试",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 6
+    }
+  }, {
+    "uid" : "7a8a34a5e568701130c7a5e460a34104",
+    "name" : "社区测试内容",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "c98132a3f895ab672643f1f64766bb9a",
+    "name" : "亲友模块测试内容",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "0e18baa518fe280312891785cffa8bde",
+    "name" : "我的模块测试内容",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 7,
+      "unknown" : 0,
+      "total" : 7
+    }
+  }, {
+    "uid" : "e4d3c500e5c899d9ababd199e8892053",
+    "name" : "测试今日步数模块",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 7,
+      "unknown" : 0,
+      "total" : 7
+    }
+  }, {
+    "uid" : "2437a0749d724ef7bcf0fabade14e420",
+    "name" : "个人社区主页模块测试内容",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 6,
+      "unknown" : 0,
+      "total" : 7
+    }
+  }, {
+    "uid" : "bfe4daf053b9570de1d73f6b43874f1b",
+    "name" : "运动模块-我的运动页面测试",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 6,
+      "unknown" : 0,
+      "total" : 6
+    }
+  }, {
+    "uid" : "c07d5a8e695a54bc73e3eb0dcfad019b",
+    "name" : "我的课程模块测试内容",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 5
+    }
+  }, {
+    "uid" : "bf0426206d3962718cea8b92a29b697f",
+    "name" : "运动模块我的状态昨晚睡眠",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "b7a56f87d6aa9a35e1dfd508ad031359",
+    "name" : "测试参加训练课程模块",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    }
+  } ]
+}

@@ -1,0 +1,48 @@
+{
+  "total" : 4,
+  "items" : [ {
+    "uid" : "1513b6b68a53e81863e4d126f35591a8",
+    "name" : "testcase.mine_tab_case",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 2,
+      "skipped" : 1,
+      "passed" : 30,
+      "unknown" : 0,
+      "total" : 33
+    }
+  }, {
+    "uid" : "ab06475c9352d4e6cb576094598b482f",
+    "name" : "testcase.sport_tab_case",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 28,
+      "unknown" : 0,
+      "total" : 29
+    }
+  }, {
+    "uid" : "11be971deb7074f280c4179431a5c9bc",
+    "name" : "testcase.course_tab_case",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "1d4067e7e0ac6f1384ace669e6bb0ba4",
+    "name" : "testcase.a_login_and_register_case",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  } ]
+}

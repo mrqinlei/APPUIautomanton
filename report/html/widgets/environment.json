@@ -1,0 +1,13 @@
+[ {
+  "values" : [ "99b47f8b" ],
+  "name" : "device_name"
+}, {
+  "values" : [ "com.xiaomi.hm.health" ],
+  "name" : "app_package"
+}, {
+  "values" : [ "Android" ],
+  "name" : "platform_name"
+}, {
+  "values" : [ "activity.StartUpActivity" ],
+  "name" : "app_activity"
+} ]

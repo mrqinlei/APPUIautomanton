@@ -1,0 +1,124 @@
+{
+  "uid" : "aa61283f69459d3f",
+  "name" : "test_dynamic_page",
+  "fullName" : "testcase.mine_tab_case.test_my_dynamic_case.TestMyDynamic#test_dynamic_page",
+  "historyId" : "271e87fa0eede5a6e29052925cb2240c",
+  "time" : {
+    "start" : 1598941714204,
+    "stop" : 1598941722338,
+    "duration" : 8134
+  },
+  "description" : "\n        查看个人主页-动态tab下帖子跳转功能\n        :return: 是否成功跳转到帖子页面\n        ",
+  "descriptionHtml" : "<pre><code>    查看个人主页-动态tab下帖子跳转功能\n    :return: 是否成功跳转到帖子页面\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1598941693673,
+      "stop" : 1598941712769,
+      "duration" : 19096
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "\n        查看个人主页-动态tab下帖子跳转功能\n        :return: 是否成功跳转到帖子页面\n        ",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "fff81269afa5b83b",
+      "name" : "查看个人主页-动态tab下帖子跳转功能截图",
+      "source" : "fff81269afa5b83b.png",
+      "type" : "image/png",
+      "size" : 1105209
+    }, {
+      "uid" : "94a1034dbf9571ab",
+      "name" : "查看个人主页-动态tab下帖子跳转功能日志",
+      "source" : "94a1034dbf9571ab.txt",
+      "type" : "text/plain",
+      "size" : 4020547
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1598941793826,
+      "stop" : 1598941793878,
+      "duration" : 52
+    },
+    "status" : "broken",
+    "statusMessage" : "selenium.common.exceptions.InvalidSessionIdException: Message: A session is either terminated or not started\n\n",
+    "statusTrace" : "  File \"/usr/local/lib/python3.8/site-packages/allure_commons/_allure.py\", line 185, in __call__\n    return self._fixture_function(*args, **kwargs)\n  File \"/usr/local/lib/python3.8/site-packages/_pytest/fixtures.py\", line 800, in _teardown_yield_fixture\n    next(it)\n  File \"/usr/local/lib/python3.8/site-packages/_pytest/python.py\", line 705, in xunit_setup_class_fixture\n    _call_with_optional_argument(func, self.obj)\n  File \"/usr/local/lib/python3.8/site-packages/_pytest/python.py\", line 632, in _call_with_optional_argument\n    func(arg)\n  File \"/Users/huami/Documents/MitFitAutoTest/testcase/mine_tab_case/test_my_dynamic_case.py\", line 128, in teardown_class\n    cls.dynamic.driver.quit()\n  File \"/usr/local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py\", line 698, in quit\n    self.execute(Command.QUIT)\n  File \"/usr/local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py\", line 321, in execute\n    self.error_handler.check_response(response)\n  File \"/usr/local/lib/python3.8/site-packages/appium/webdriver/errorhandler.py\", line 31, in check_response\n    raise wde\n  File \"/usr/local/lib/python3.8/site-packages/appium/webdriver/errorhandler.py\", line 26, in check_response\n    super().check_response(response)\n  File \"/usr/local/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py\", line 242, in check_response\n    raise exception_class(message, screen, stacktrace)\n",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "个人主页-动态tab下帖子跳转功能测试"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "feature",
+    "value" : "社区测试内容"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase.mine_tab_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_my_dynamic_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestMyDynamic"
+  }, {
+    "name" : "host",
+    "value" : "qinleideMacBook"
+  }, {
+    "name" : "thread",
+    "value" : "19331-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.mine_tab_case.test_my_dynamic_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "smoke" ]
+  },
+  "source" : "aa61283f69459d3f.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,139 @@
+{
+  "uid" : "9a3471a6666e1697",
+  "name" : "test_edit_profile",
+  "fullName" : "testcase.mine_tab_case.test_personal_homepage_case.TestPersonalHomepageCase#test_edit_profile",
+  "historyId" : "dc60ff9c5c4d506cc2e42b70d5c91d10",
+  "time" : {
+    "start" : 1598941824008,
+    "stop" : 1598941825990,
+    "duration" : 1982
+  },
+  "description" : "\n        查看个人主页-编辑资料按钮跳转功能\n        :return: 是否成功跳转到个人信息页面\n        ",
+  "descriptionHtml" : "<pre><code>    查看个人主页-编辑资料按钮跳转功能\n    :return: 是否成功跳转到个人信息页面\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1598941793960,
+      "stop" : 1598941814976,
+      "duration" : 21016
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "\n        查看个人主页-编辑资料按钮跳转功能\n        :return: 是否成功跳转到个人信息页面\n        ",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e39000e0c718a654",
+      "name" : "查看个人主页-编辑资料按钮跳转功能截图",
+      "source" : "e39000e0c718a654.png",
+      "type" : "image/png",
+      "size" : 96721
+    }, {
+      "uid" : "18f083fc348e27d8",
+      "name" : "查看个人主页-编辑资料按钮跳转功能日志",
+      "source" : "18f083fc348e27d8.txt",
+      "type" : "text/plain",
+      "size" : 1046849
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1598941848023,
+      "stop" : 1598941848314,
+      "duration" : 291
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "story",
+    "value" : "个人主页-编辑资料按钮跳转功能测试"
+  }, {
+    "name" : "feature",
+    "value" : "个人社区主页模块测试内容"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "tag",
+    "value" : "mineP0"
+  }, {
+    "name" : "tag",
+    "value" : "release"
+  }, {
+    "name" : "tag",
+    "value" : "core"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase.mine_tab_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_personal_homepage_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestPersonalHomepageCase"
+  }, {
+    "name" : "host",
+    "value" : "qinleideMacBook"
+  }, {
+    "name" : "thread",
+    "value" : "19331-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.mine_tab_case.test_personal_homepage_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "测试用例",
+    "url" : "http://www.sina.com",
+    "type" : "test_case"
+  }, {
+    "name" : "问题",
+    "url" : "http://www.baidu.com",
+    "type" : "issue"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "core", "release", "smoke", "mineP0" ]
+  },
+  "source" : "9a3471a6666e1697.json",
+  "parameterValues" : [ ]
+}

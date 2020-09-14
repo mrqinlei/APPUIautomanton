@@ -1,0 +1,136 @@
+{
+  "uid" : "5d4c2ca707695beb",
+  "name" : "test_edit_nick_name[username3]",
+  "fullName" : "testcase.mine_tab_case.test_user_info_case.TestUserInfoCase#test_edit_nick_name",
+  "historyId" : "980c907ae3bc42d4545b034931d2f9f3",
+  "time" : {
+    "start" : 1598941949471,
+    "stop" : 1598941954080,
+    "duration" : 4609
+  },
+  "description" : "\n        修改用户昵称\n        :return:是否成功修改昵称\n        ",
+  "descriptionHtml" : "<pre><code>    修改用户昵称\n    :return:是否成功修改昵称\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1598941917433,
+      "stop" : 1598941938350,
+      "duration" : 20917
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "\n        修改用户昵称\n        :return:是否成功修改昵称\n        ",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "1ce29cfe7302d6e5",
+      "name" : "修改昵称截图",
+      "source" : "1ce29cfe7302d6e5.png",
+      "type" : "image/png",
+      "size" : 95836
+    }, {
+      "uid" : "4cdbd03b6bc75a04",
+      "name" : "修改昵称日志",
+      "source" : "4cdbd03b6bc75a04.txt",
+      "type" : "text/plain",
+      "size" : 901469
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1598941962924,
+      "stop" : 1598941963282,
+      "duration" : 358
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "修改昵称功能测试"
+  }, {
+    "name" : "severity",
+    "value" : "Blocker"
+  }, {
+    "name" : "feature",
+    "value" : "我的-个人信息页面测试内容"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "tag",
+    "value" : "mineNormal"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase.mine_tab_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_user_info_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestUserInfoCase"
+  }, {
+    "name" : "host",
+    "value" : "qinleideMacBook"
+  }, {
+    "name" : "thread",
+    "value" : "19331-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.mine_tab_case.test_user_info_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "username",
+    "value" : "'username3'"
+  } ],
+  "links" : [ {
+    "name" : "测试用例",
+    "url" : "http://www.sina.com",
+    "type" : "test_case"
+  }, {
+    "name" : "问题",
+    "url" : "http://www.baidu.com",
+    "type" : "issue"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "mineNormal", "smoke" ]
+  },
+  "source" : "5d4c2ca707695beb.json",
+  "parameterValues" : [ "'username3'" ]
+}

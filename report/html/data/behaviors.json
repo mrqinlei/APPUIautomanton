@@ -1,0 +1,1089 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "覆盖安装测试",
+    "children" : [ {
+      "name" : "覆盖安装测试",
+      "children" : [ {
+        "name" : "test_recover_install",
+        "uid" : "f1920c72fe4b0f28",
+        "parentUid" : "47c92511ce32554616daaadaace3d4d0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598941243787,
+          "stop" : 1598941250991,
+          "duration" : 7204
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "47c92511ce32554616daaadaace3d4d0"
+    } ],
+    "uid" : "f7ce95f11532ed4e2f3f9370826f56eb"
+  }, {
+    "name" : "登录模块测试内容",
+    "children" : [ {
+      "name" : "手机号登录功能测试",
+      "children" : [ {
+        "name" : "test_login_by_phone[13146085375-huami001]",
+        "uid" : "bc81399ba037e9a0",
+        "parentUid" : "2cd46cc663e68bebbbc1300c376362ea",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598941256493,
+          "stop" : 1598941282047,
+          "duration" : 25554
+        },
+        "flaky" : false,
+        "parameters" : [ "'huami001'", "'13146085375'" ]
+      } ],
+      "uid" : "2cd46cc663e68bebbbc1300c376362ea"
+    } ],
+    "uid" : "a334bca18da9d3c376407cad2a45e30b"
+  }, {
+    "name" : "测试参加训练课程模块",
+    "children" : [ {
+      "name" : "判断是否已参加训练课程",
+      "children" : [ {
+        "name" : "test_judge_already_join_train",
+        "uid" : "541431aad9afe5a2",
+        "parentUid" : "19115f0e68b1a173372fae8a06f41764",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598941302404,
+          "stop" : 1598941377368,
+          "duration" : 74964
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "19115f0e68b1a173372fae8a06f41764"
+    }, {
+      "name" : "参加训练课程观看并退出观看",
+      "children" : [ {
+        "name" : "test_join_train",
+        "uid" : "ccb2a4b0512214ea",
+        "parentUid" : "6b5333eba9d1a4e89cc500bfb37823fb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598941377391,
+          "stop" : 1598941420252,
+          "duration" : 42861
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6b5333eba9d1a4e89cc500bfb37823fb"
+    }, {
+      "name" : "退出训练课程",
+      "children" : [ {
+        "name" : "test_exit_train",
+        "uid" : "379e6dccfd1d8312",
+        "parentUid" : "2f47dd625c09c78703367c9ed6d712ed",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598941420265,
+          "stop" : 1598941425023,
+          "duration" : 4758
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2f47dd625c09c78703367c9ed6d712ed"
+    } ],
+    "uid" : "b7a56f87d6aa9a35e1dfd508ad031359"
+  }, {
+    "name" : "我的收藏模块测试内容",
+    "children" : [ {
+      "name" : "我的收藏-帖子tab下帖子详情页测试",
+      "children" : [ {
+        "name" : "test_collect_post_page",
+        "uid" : "e8f8eebd42da3539",
+        "parentUid" : "aff773b1e25b7636f4c128180bba05e7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598941448187,
+          "stop" : 1598941454690,
+          "duration" : 6503
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "aff773b1e25b7636f4c128180bba05e7"
+    }, {
+      "name" : "我的收藏-课程tab下课程详情页测试",
+      "children" : [ {
+        "name" : "test_collect_course_page",
+        "uid" : "c4c56e8f8ebd9c88",
+        "parentUid" : "b4cf2435182376aebad4545ec0521508",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598941454824,
+          "stop" : 1598941462830,
+          "duration" : 8006
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b4cf2435182376aebad4545ec0521508"
+    } ],
+    "uid" : "f8ac04e32e4e28cc957fcf9f0436521d"
+  }, {
+    "name" : "我的课程模块测试内容",
+    "children" : [ {
+      "name" : "我的课程-添加课程测试",
+      "children" : [ {
+        "name" : "test_add_course",
+        "uid" : "5686fde11468b96b",
+        "parentUid" : "5dbb0d300a3f476d49be1dfef4d66a68",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598941484128,
+          "stop" : 1598941493976,
+          "duration" : 9848
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5dbb0d300a3f476d49be1dfef4d66a68"
+    }, {
+      "name" : "我的课程-课程详情页测试",
+      "children" : [ {
+        "name" : "test_course_page",
+        "uid" : "654be0555be26977",
+        "parentUid" : "1f3b7b82092c63af2b7406bc255e9499",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598941494040,
+          "stop" : 1598941498532,
+          "duration" : 4492
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1f3b7b82092c63af2b7406bc255e9499"
+    }, {
+      "name" : "我的课程-观看课程测试",
+      "children" : [ {
+        "name" : "test_watch_course",
+        "uid" : "6ea8bcc95f77af29",
+        "parentUid" : "b4e25f9b4024db786f4c264099cd74db",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598941499075,
+          "stop" : 1598941509955,
+          "duration" : 10880
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b4e25f9b4024db786f4c264099cd74db"
+    }, {
+      "name" : "我的课程-退出课程测试",
+      "children" : [ {
+        "name" : "test_exit_course",
+        "uid" : "a15bc34d305a07d1",
+        "parentUid" : "13d3f5288c063bce6b107721f055c644",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598941510537,
+          "stop" : 1598941515280,
+          "duration" : 4743
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "13d3f5288c063bce6b107721f055c644"
+    }, {
+      "name" : "我的课程-添加付费课程测试",
+      "children" : [ {
+        "name" : "test_add_pay_course",
+        "uid" : "9d61989dcbfea2bd",
+        "parentUid" : "05c5a8ca17653e873a8020386b538434",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598941515815,
+          "stop" : 1598941535084,
+          "duration" : 19269
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "05c5a8ca17653e873a8020386b538434"
+    } ],
+    "uid" : "c07d5a8e695a54bc73e3eb0dcfad019b"
+  }, {
+    "name" : "亲友模块测试内容",
+    "children" : [ {
+      "name" : "亲友-亲友详情页测试",
+      "children" : [ {
+        "name" : "test_care",
+        "uid" : "6d9216fde3989a62",
+        "parentUid" : "40134971223b8da4adaffb45169ee851",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598941561391,
+          "stop" : 1598941569459,
+          "duration" : 8068
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "40134971223b8da4adaffb45169ee851"
+    }, {
+      "name" : "test_click_to_notification",
+      "uid" : "a94400b88d339450",
+      "parentUid" : "c98132a3f895ab672643f1f64766bb9a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598941588139,
+        "stop" : 1598941631415,
+        "duration" : 43276
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_click_to_message",
+      "uid" : "3cb3ef7e977f7d2a",
+      "parentUid" : "c98132a3f895ab672643f1f64766bb9a",
+      "status" : "broken",
+      "time" : {
+        "start" : 1598941685618,
+        "stop" : 1598941693415,
+        "duration" : 7797
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "c98132a3f895ab672643f1f64766bb9a"
+  }, {
+    "name" : "社区测试内容",
+    "children" : [ {
+      "name" : "个人主页-动态tab下帖子跳转功能测试",
+      "children" : [ {
+        "name" : "test_dynamic_page",
+        "uid" : "aa61283f69459d3f",
+        "parentUid" : "d3686a066b0180cd96edf99358946115",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598941714204,
+          "stop" : 1598941722338,
+          "duration" : 8134
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d3686a066b0180cd96edf99358946115"
+    }, {
+      "name" : "个人主页-动态tab下帖子点赞测试",
+      "children" : [ {
+        "name" : "test_dynamic_like_post",
+        "uid" : "49b3bf0fffa2038b",
+        "parentUid" : "defa25b9d977e64575eb0c4e2f10f054",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598941722984,
+          "stop" : 1598941726511,
+          "duration" : 3527
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "defa25b9d977e64575eb0c4e2f10f054"
+    }, {
+      "name" : "个人主页-动态tab下帖子评论功能测试",
+      "children" : [ {
+        "name" : "test_dynamic_comment_post",
+        "uid" : "4c1e674c919db0b1",
+        "parentUid" : "2ad512fb35a81db10dcfcb40c8b23faa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598941787488,
+          "stop" : 1598941793192,
+          "duration" : 5704
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2ad512fb35a81db10dcfcb40c8b23faa"
+    }, {
+      "name" : "个人主页-动态tab下帖子删除功能测试",
+      "children" : [ {
+        "name" : "test_dynamic_delete_post",
+        "uid" : "95b92b53e08096be",
+        "parentUid" : "6f489e706023994b74b5db90c79c056b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1598941793200,
+          "stop" : 1598941793200,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6f489e706023994b74b5db90c79c056b"
+    } ],
+    "uid" : "7a8a34a5e568701130c7a5e460a34104"
+  }, {
+    "name" : "个人社区主页模块测试内容",
+    "children" : [ {
+      "name" : "个人主页-我的关注测试",
+      "children" : [ {
+        "name" : "test_care",
+        "uid" : "d2bcfae5aa4aaad6",
+        "parentUid" : "1414903e4bc684dbcbfcde2e4229e505",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598941815894,
+          "stop" : 1598941819693,
+          "duration" : 3799
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1414903e4bc684dbcbfcde2e4229e505"
+    }, {
+      "name" : "个人主页-我的粉丝测试",
+      "children" : [ {
+        "name" : "test_fans",
+        "uid" : "6167ddb29ee29514",
+        "parentUid" : "5d3aad74e44d20a3d1dbbcf468500470",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598941820225,
+          "stop" : 1598941823336,
+          "duration" : 3111
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5d3aad74e44d20a3d1dbbcf468500470"
+    }, {
+      "name" : "个人主页-编辑资料按钮跳转功能测试",
+      "children" : [ {
+        "name" : "test_edit_profile",
+        "uid" : "9a3471a6666e1697",
+        "parentUid" : "df74d231a8bd342f3a55b108fdd1c6fe",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598941824008,
+          "stop" : 1598941825990,
+          "duration" : 1982
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "df74d231a8bd342f3a55b108fdd1c6fe"
+    }, {
+      "name" : "个人主页-更多勋章按钮跳转功能测试",
+      "children" : [ {
+        "name" : "test_medal_page",
+        "uid" : "142cd7d3dc4518da",
+        "parentUid" : "022481d1764f6dcd9103343bc933577c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598941827192,
+          "stop" : 1598941832987,
+          "duration" : 5795
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "022481d1764f6dcd9103343bc933577c"
+    }, {
+      "name" : "个人主页-我的日记本跳转功能测试",
+      "children" : [ {
+        "name" : "test_diary_page",
+        "uid" : "16ddc36dd321a2dd",
+        "parentUid" : "c565160c170fe1da5a346da6f3b6c52f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598941833630,
+          "stop" : 1598941838980,
+          "duration" : 5350
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c565160c170fe1da5a346da6f3b6c52f"
+    }, {
+      "name" : "个人主页-动态tab下帖子跳转功能测试",
+      "children" : [ {
+        "name" : "test_dynamic_page",
+        "uid" : "bc212abea54ef86e",
+        "parentUid" : "f5e7ce3d0e82e1e0e5433aae12fc2b98",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598941839627,
+          "stop" : 1598941848015,
+          "duration" : 8388
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f5e7ce3d0e82e1e0e5433aae12fc2b98"
+    }, {
+      "name" : "个人主页-视频tab下帖子跳转功能测试",
+      "children" : [ {
+        "name" : "test_video_page",
+        "uid" : "650bee942b6f55ef",
+        "parentUid" : "334fe731b1951e6e0b585c2f539f4fb9",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1598941848019,
+          "stop" : 1598941848019,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "334fe731b1951e6e0b585c2f539f4fb9"
+    } ],
+    "uid" : "2437a0749d724ef7bcf0fabade14e420"
+  }, {
+    "name" : "我的模块测试内容",
+    "children" : [ {
+      "name" : "健康周报功能测试",
+      "children" : [ {
+        "name" : "test_mine_report",
+        "uid" : "8f3632b41b4fa29b",
+        "parentUid" : "1e55afe5a1e636aadb247c4775f54832",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598941869778,
+          "stop" : 1598941873768,
+          "duration" : 3990
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1e55afe5a1e636aadb247c4775f54832"
+    }, {
+      "name" : "设置步数功能测试",
+      "children" : [ {
+        "name" : "test_set_steps_goal",
+        "uid" : "589498c88b2df169",
+        "parentUid" : "55671f3aefdef8fa958490a1bc7c5af9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598941875804,
+          "stop" : 1598941888503,
+          "duration" : 12699
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "55671f3aefdef8fa958490a1bc7c5af9"
+    }, {
+      "name" : "查看订单功能测试",
+      "children" : [ {
+        "name" : "test_order_page",
+        "uid" : "895994db19cc229b",
+        "parentUid" : "eae1e1a689feb894cdd90004afeaff84",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598941888594,
+          "stop" : 1598941893129,
+          "duration" : 4535
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "eae1e1a689feb894cdd90004afeaff84"
+    }, {
+      "name" : "查看行为标注功能测试",
+      "children" : [ {
+        "name" : "test_behavior_page",
+        "uid" : "f3784fffe7b6ddbd",
+        "parentUid" : "3bca85008a9c44637d1c52945d0ed4f4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598941894383,
+          "stop" : 1598941897277,
+          "duration" : 2894
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3bca85008a9c44637d1c52945d0ed4f4"
+    }, {
+      "name" : "查看第三方接入功能测试",
+      "children" : [ {
+        "name" : "test_third_page",
+        "uid" : "9db78f5d50860c35",
+        "parentUid" : "0fda3a03ef2efbaf5bd6a254a5929e70",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598941898549,
+          "stop" : 1598941901789,
+          "duration" : 3240
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0fda3a03ef2efbaf5bd6a254a5929e70"
+    }, {
+      "name" : "提交意见反馈功能测试",
+      "children" : [ {
+        "name" : "test_feed_back",
+        "uid" : "4898a989c9c299e",
+        "parentUid" : "92f2189e3f131308bb83052713d5c149",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598941903055,
+          "stop" : 1598941908176,
+          "duration" : 5121
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "92f2189e3f131308bb83052713d5c149"
+    }, {
+      "name" : "查看账号与安全功能测试",
+      "children" : [ {
+        "name" : "test_setting_account",
+        "uid" : "554d7628a50f8998",
+        "parentUid" : "0945e9b72386eafeaa4afc2b6b993a5d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598941910126,
+          "stop" : 1598941917019,
+          "duration" : 6893
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0945e9b72386eafeaa4afc2b6b993a5d"
+    } ],
+    "uid" : "0e18baa518fe280312891785cffa8bde"
+  }, {
+    "name" : "我的-个人信息页面测试内容",
+    "children" : [ {
+      "name" : "修改昵称功能测试",
+      "children" : [ {
+        "name" : "test_edit_nick_name[username1]",
+        "uid" : "78898ec4a0578fbf",
+        "parentUid" : "8cfc5e15c8e01549290690709bdd21d6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598941939363,
+          "stop" : 1598941944050,
+          "duration" : 4687
+        },
+        "flaky" : false,
+        "parameters" : [ "'username1'" ]
+      }, {
+        "name" : "test_edit_nick_name[username2]",
+        "uid" : "e07321746dde73a3",
+        "parentUid" : "8cfc5e15c8e01549290690709bdd21d6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598941944263,
+          "stop" : 1598941949148,
+          "duration" : 4885
+        },
+        "flaky" : false,
+        "parameters" : [ "'username2'" ]
+      }, {
+        "name" : "test_edit_nick_name[username3]",
+        "uid" : "5d4c2ca707695beb",
+        "parentUid" : "8cfc5e15c8e01549290690709bdd21d6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598941949471,
+          "stop" : 1598941954080,
+          "duration" : 4609
+        },
+        "flaky" : false,
+        "parameters" : [ "'username3'" ]
+      } ],
+      "uid" : "8cfc5e15c8e01549290690709bdd21d6"
+    }, {
+      "name" : "修改性别功能测试",
+      "children" : [ {
+        "name" : "test_edit_sex",
+        "uid" : "b92a714e42522b61",
+        "parentUid" : "3edf18d274d05926acf7cb5951ebd661",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598941954457,
+          "stop" : 1598941957771,
+          "duration" : 3314
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3edf18d274d05926acf7cb5951ebd661"
+    }, {
+      "name" : "编辑个人简介功能测试",
+      "children" : [ {
+        "name" : "test_edit_brief",
+        "uid" : "98fd166d2520d4fe",
+        "parentUid" : "781eb69cad010653fd5eadd15342ef61",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598941957893,
+          "stop" : 1598941962920,
+          "duration" : 5027
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "781eb69cad010653fd5eadd15342ef61"
+    } ],
+    "uid" : "474576e471f60a37395f04ebfb52ee17"
+  }, {
+    "name" : "运动模块我的状态昨晚睡眠",
+    "children" : [ {
+      "name" : "昨晚睡眠-视图切换页面测试",
+      "children" : [ {
+        "name" : "test_last_sleep_day_view",
+        "uid" : "b81d16d5c94eb26f",
+        "parentUid" : "01e643d999153a77585f23bf125cacfa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598941993583,
+          "stop" : 1598941995663,
+          "duration" : 2080
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "01e643d999153a77585f23bf125cacfa"
+    }, {
+      "name" : "test_last_week_day_view",
+      "uid" : "4aef9b3e3fd8cbac",
+      "parentUid" : "bf0426206d3962718cea8b92a29b697f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598941995756,
+        "stop" : 1598941997817,
+        "duration" : 2061
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_last_month_day_view",
+      "uid" : "bf80b5828d6b6dba",
+      "parentUid" : "bf0426206d3962718cea8b92a29b697f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598941997910,
+        "stop" : 1598942000302,
+        "duration" : 2392
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_last_year_day_view",
+      "uid" : "6864361c3ce0c8ad",
+      "parentUid" : "bf0426206d3962718cea8b92a29b697f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598942000395,
+        "stop" : 1598942002215,
+        "duration" : 1820
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "bf0426206d3962718cea8b92a29b697f"
+  }, {
+    "name" : "运动模块-我的运动页面测试",
+    "children" : [ {
+      "name" : "今日运动列表-列表展示页面测试",
+      "children" : [ {
+        "name" : "test_my_sports_show",
+        "uid" : "48411cbb7f544982",
+        "parentUid" : "df4ef4e838a18f695a2ad51912082387",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598942031508,
+          "stop" : 1598942033434,
+          "duration" : 1926
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "df4ef4e838a18f695a2ad51912082387"
+    }, {
+      "name" : "今日运动列表-运动距离和步数跳转页面测试",
+      "children" : [ {
+        "name" : "test_today_steps_value",
+        "uid" : "fd25078ecc5377d0",
+        "parentUid" : "215ef2486eb22aab3d138baf5df6f682",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598942033696,
+          "stop" : 1598942038258,
+          "duration" : 4562
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "215ef2486eb22aab3d138baf5df6f682"
+    }, {
+      "name" : "今日运动列表-我的运动跳转页面测试",
+      "children" : [ {
+        "name" : "test_today_my_steps",
+        "uid" : "46c7bf68a3ef1ced",
+        "parentUid" : "78f59172fa3c7d5493c55ada191954e5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598942039042,
+          "stop" : 1598942042581,
+          "duration" : 3539
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "78f59172fa3c7d5493c55ada191954e5"
+    }, {
+      "name" : "今日运动列表-今日运动跳转页面测试",
+      "children" : [ {
+        "name" : "test_today_sports",
+        "uid" : "f067b5619eb9d110",
+        "parentUid" : "cc428b1abe1a40b105b047269915e84a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598942042852,
+          "stop" : 1598942045935,
+          "duration" : 3083
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "cc428b1abe1a40b105b047269915e84a"
+    }, {
+      "name" : "今日运动列表-今日能量跳转页面测试",
+      "children" : [ {
+        "name" : "test_today_energy",
+        "uid" : "72347d52c49a629e",
+        "parentUid" : "e95a80807433ffc3e85143e5a9c26605",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598942047514,
+          "stop" : 1598942051744,
+          "duration" : 4230
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e95a80807433ffc3e85143e5a9c26605"
+    }, {
+      "name" : "今日运动列-今日跳转页面测试",
+      "children" : [ {
+        "name" : "test_today_goal",
+        "uid" : "a3c2014f65d9652a",
+        "parentUid" : "aa6ab47f595a41643263d917e2809bbc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598942053360,
+          "stop" : 1598942056004,
+          "duration" : 2644
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "aa6ab47f595a41643263d917e2809bbc"
+    } ],
+    "uid" : "bfe4daf053b9570de1d73f6b43874f1b"
+  }, {
+    "name" : "运动模块-我的状态测试",
+    "children" : [ {
+      "name" : "test_pai_value",
+      "uid" : "b4f5b403501aa9df",
+      "parentUid" : "b5b87e641a18e80e118d4b462a2e5040",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598942085759,
+        "stop" : 1598942090889,
+        "duration" : 5130
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_press_value",
+      "uid" : "7db6d2e073b020f2",
+      "parentUid" : "b5b87e641a18e80e118d4b462a2e5040",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598942091497,
+        "stop" : 1598942095590,
+        "duration" : 4093
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_heart_rate",
+      "uid" : "2d77fdf4c35c00b9",
+      "parentUid" : "b5b87e641a18e80e118d4b462a2e5040",
+      "status" : "broken",
+      "time" : {
+        "start" : 1598942096210,
+        "stop" : 1598942241031,
+        "duration" : 144821
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_weight_kilogram",
+      "uid" : "ab1bd62a74c01076",
+      "parentUid" : "b5b87e641a18e80e118d4b462a2e5040",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598942241353,
+        "stop" : 1598942274352,
+        "duration" : 32999
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_body_fat",
+      "uid" : "c6ac90c2a2c1d222",
+      "parentUid" : "b5b87e641a18e80e118d4b462a2e5040",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598942275990,
+        "stop" : 1598942311658,
+        "duration" : 35668
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_balance",
+      "uid" : "c379053ffebcaf5a",
+      "parentUid" : "b5b87e641a18e80e118d4b462a2e5040",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598942313254,
+        "stop" : 1598942349831,
+        "duration" : 36577
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "b5b87e641a18e80e118d4b462a2e5040"
+  }, {
+    "name" : "运动模块测试内容",
+    "children" : [ {
+      "name" : "首页点击步数进入今日步数页面测试",
+      "children" : [ {
+        "name" : "test_steps_page",
+        "uid" : "c13caedf5df5d998",
+        "parentUid" : "d45b8da43aa5a446d5b8ab43876ae40c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598942375310,
+          "stop" : 1598942381851,
+          "duration" : 6541
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d45b8da43aa5a446d5b8ab43876ae40c"
+    }, {
+      "name" : "进行健走测试",
+      "children" : [ {
+        "name" : "test_work_page",
+        "uid" : "aaad5bf4674db42",
+        "parentUid" : "62f3a21cd494278c733ea6200fc412f7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598942382609,
+          "stop" : 1598942409573,
+          "duration" : 26964
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "62f3a21cd494278c733ea6200fc412f7"
+    }, {
+      "name" : "进行室外跑测试",
+      "children" : [ {
+        "name" : "test_outdoor_run_page",
+        "uid" : "9a77fc158bcdd665",
+        "parentUid" : "175785456f9929d9436f93ba843a37c3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598942410030,
+          "stop" : 1598942439049,
+          "duration" : 29019
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "175785456f9929d9436f93ba843a37c3"
+    } ],
+    "uid" : "3cae1c3a24cabac6ff47f52aa5994725"
+  }, {
+    "name" : "运动模块我的运动今日能量测试内容",
+    "children" : [ {
+      "name" : "我的运动今日能量跳转测试",
+      "children" : [ {
+        "name" : "test_today_energy",
+        "uid" : "61609c697d8d897d",
+        "parentUid" : "44111fe8c4828baa6e3d17653fb6dc03",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598942465066,
+          "stop" : 1598942467097,
+          "duration" : 2031
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "44111fe8c4828baa6e3d17653fb6dc03"
+    }, {
+      "name" : "我的能量周统计测试",
+      "children" : [ {
+        "name" : "test_week_energy",
+        "uid" : "cd0d4105bdc0fd8e",
+        "parentUid" : "fb2f752cbc90251e8f0f3abe64f390d3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598942467116,
+          "stop" : 1598942509903,
+          "duration" : 42787
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fb2f752cbc90251e8f0f3abe64f390d3"
+    }, {
+      "name" : "我的能量月统计测试",
+      "children" : [ {
+        "name" : "test_month_energy",
+        "uid" : "fccbfe9d0ffb6248",
+        "parentUid" : "8371692e9779361079210d30f112fc9f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598942509915,
+          "stop" : 1598942547087,
+          "duration" : 37172
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8371692e9779361079210d30f112fc9f"
+    } ],
+    "uid" : "8bb41034e088048282bfd2250d1124fa"
+  }, {
+    "name" : "测试今日步数模块",
+    "children" : [ {
+      "name" : "今日步数-分享页面测试",
+      "children" : [ {
+        "name" : "test_share",
+        "uid" : "b817f676bda01d38",
+        "parentUid" : "6b0361711bb5772a687b9723afdcfa68",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598942572592,
+          "stop" : 1598942574865,
+          "duration" : 2273
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6b0361711bb5772a687b9723afdcfa68"
+    }, {
+      "name" : "今日步数-今日统计页面测试",
+      "children" : [ {
+        "name" : "test_count_today_day_steps",
+        "uid" : "4c27a78a62b57ac8",
+        "parentUid" : "cb35d19f541b33bb76fa0b4961cc9d8b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598942574961,
+          "stop" : 1598942577543,
+          "duration" : 2582
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "cb35d19f541b33bb76fa0b4961cc9d8b"
+    }, {
+      "name" : "今日步数-统计分享页面测试",
+      "children" : [ {
+        "name" : "test_share_day_count",
+        "uid" : "4d1f6d4d316ab068",
+        "parentUid" : "2f8bf663309074c5003b06d104e1ef2b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598942577654,
+          "stop" : 1598942626643,
+          "duration" : 48989
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2f8bf663309074c5003b06d104e1ef2b"
+    }, {
+      "name" : "今日步数-周统计页面测试",
+      "children" : [ {
+        "name" : "test_count_today_week_steps",
+        "uid" : "27ac4feb684c77da",
+        "parentUid" : "b852281bded9727f72b4fd25e0231f89",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598942626742,
+          "stop" : 1598942629846,
+          "duration" : 3104
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b852281bded9727f72b4fd25e0231f89"
+    }, {
+      "name" : "今日步数-周统计页面分享测试",
+      "children" : [ {
+        "name" : "test_share_week_count",
+        "uid" : "65f303c53d08f9df",
+        "parentUid" : "6d250ed1f23af6d0eefd238f7f8ca235",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598942630459,
+          "stop" : 1598942636946,
+          "duration" : 6487
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6d250ed1f23af6d0eefd238f7f8ca235"
+    }, {
+      "name" : "今日步数-月统计页面测试",
+      "children" : [ {
+        "name" : "test_count_today_month_steps",
+        "uid" : "7d7dc5e064d8dfa5",
+        "parentUid" : "b488aa64e478c11cb6250577b29309de",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598942637564,
+          "stop" : 1598942640441,
+          "duration" : 2877
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b488aa64e478c11cb6250577b29309de"
+    }, {
+      "name" : "今日步数-月统计分享页面测试",
+      "children" : [ {
+        "name" : "test_share_month_count",
+        "uid" : "3488bbb9f7fa5d62",
+        "parentUid" : "0fa63f2e7d3e43f0e3ef190ae27d8cae",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598942641061,
+          "stop" : 1598942647000,
+          "duration" : 5939
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0fa63f2e7d3e43f0e3ef190ae27d8cae"
+    } ],
+    "uid" : "e4d3c500e5c899d9ababd199e8892053"
+  } ],
+  "name" : "behaviors"
+}

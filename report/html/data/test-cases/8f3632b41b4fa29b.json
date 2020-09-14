@@ -1,0 +1,139 @@
+{
+  "uid" : "8f3632b41b4fa29b",
+  "name" : "test_mine_report",
+  "fullName" : "testcase.mine_tab_case.test_user_case.TestUserCase#test_mine_report",
+  "historyId" : "e96b7f82d2d92c91911d5934f2a6e4a8",
+  "time" : {
+    "start" : 1598941869778,
+    "stop" : 1598941873768,
+    "duration" : 3990
+  },
+  "description" : "\n        查看健康周报\n        :return: 是否成功查看健康周报页面\n        ",
+  "descriptionHtml" : "<pre><code>    查看健康周报\n    :return: 是否成功查看健康周报页面\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1598941848318,
+      "stop" : 1598941869680,
+      "duration" : 21362
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "\n        查看健康周报\n        :return: 是否成功查看健康周报页面\n        ",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "94fff8202cc40b25",
+      "name" : "查看健康周报截图",
+      "source" : "94fff8202cc40b25.png",
+      "type" : "image/png",
+      "size" : 436166
+    }, {
+      "uid" : "a5e32e05913fc8f",
+      "name" : "查看健康周报日志",
+      "source" : "a5e32e05913fc8f.txt",
+      "type" : "text/plain",
+      "size" : 3309644
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1598941917020,
+      "stop" : 1598941917427,
+      "duration" : 407
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "Trivial"
+  }, {
+    "name" : "story",
+    "value" : "健康周报功能测试"
+  }, {
+    "name" : "feature",
+    "value" : "我的模块测试内容"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "tag",
+    "value" : "mineP0"
+  }, {
+    "name" : "tag",
+    "value" : "release"
+  }, {
+    "name" : "tag",
+    "value" : "core"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase.mine_tab_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_user_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestUserCase"
+  }, {
+    "name" : "host",
+    "value" : "qinleideMacBook"
+  }, {
+    "name" : "thread",
+    "value" : "19331-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.mine_tab_case.test_user_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "测试用例6",
+    "url" : "http://www.sina.com",
+    "type" : "test_case"
+  }, {
+    "name" : "问题6",
+    "url" : "http://www.baidu.com",
+    "type" : "issue"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "trivial",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "core", "release", "smoke", "mineP0" ]
+  },
+  "source" : "8f3632b41b4fa29b.json",
+  "parameterValues" : [ ]
+}

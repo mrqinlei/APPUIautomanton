@@ -1,0 +1,139 @@
+{
+  "uid" : "c4c56e8f8ebd9c88",
+  "name" : "test_collect_course_page",
+  "fullName" : "testcase.mine_tab_case.test_collect_case.TestCollectCase#test_collect_course_page",
+  "historyId" : "2bf0ce4f33f1870a0be391508e859faa",
+  "time" : {
+    "start" : 1598941454824,
+    "stop" : 1598941462830,
+    "duration" : 8006
+  },
+  "description" : "\n        跳转课程tab下课程详情页\n        :return: 是否成功跳转到课程详情页面\n        ",
+  "descriptionHtml" : "<pre><code>    跳转课程tab下课程详情页\n    :return: 是否成功跳转到课程详情页面\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1598941425344,
+      "stop" : 1598941446263,
+      "duration" : 20919
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "\n        跳转课程tab下课程详情页\n        :return: 是否成功跳转到课程详情页面\n        ",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "dcb6a7e93e0797f8",
+      "name" : "查看跳转课程tab下课程详情页截图",
+      "source" : "dcb6a7e93e0797f8.png",
+      "type" : "image/png",
+      "size" : 430017
+    }, {
+      "uid" : "a181cb23c0503e0",
+      "name" : "查看课程tab下课程详情页日志",
+      "source" : "a181cb23c0503e0.txt",
+      "type" : "text/plain",
+      "size" : 1377977
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1598941462832,
+      "stop" : 1598941463729,
+      "duration" : 897
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "我的收藏-课程tab下课程详情页测试"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "feature",
+    "value" : "我的收藏模块测试内容"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "tag",
+    "value" : "mineP0"
+  }, {
+    "name" : "tag",
+    "value" : "release"
+  }, {
+    "name" : "tag",
+    "value" : "core"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase.mine_tab_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_collect_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCollectCase"
+  }, {
+    "name" : "host",
+    "value" : "qinleideMacBook"
+  }, {
+    "name" : "thread",
+    "value" : "19331-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.mine_tab_case.test_collect_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "测试用例",
+    "url" : "http://www.sina.com",
+    "type" : "test_case"
+  }, {
+    "name" : "问题",
+    "url" : "http://www.baidu.com",
+    "type" : "issue"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "core", "release", "smoke", "mineP0" ]
+  },
+  "source" : "c4c56e8f8ebd9c88.json",
+  "parameterValues" : [ ]
+}

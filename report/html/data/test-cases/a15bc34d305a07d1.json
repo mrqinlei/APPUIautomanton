@@ -1,0 +1,122 @@
+{
+  "uid" : "a15bc34d305a07d1",
+  "name" : "test_exit_course",
+  "fullName" : "testcase.mine_tab_case.test_course_case.TestCourseCase#test_exit_course",
+  "historyId" : "1565c0961572307a402d368aa1f5af2b",
+  "time" : {
+    "start" : 1598941510537,
+    "stop" : 1598941515280,
+    "duration" : 4743
+  },
+  "description" : "\n        测试退出课程\n        :return:\n        ",
+  "descriptionHtml" : "<pre><code>    测试退出课程\n    :return:\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1598941463734,
+      "stop" : 1598941482730,
+      "duration" : 18996
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "\n        测试退出课程\n        :return:\n        ",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f49d1ab2376d51",
+      "name" : "退出课程课程详情页截图",
+      "source" : "f49d1ab2376d51.png",
+      "type" : "image/png",
+      "size" : 731262
+    }, {
+      "uid" : "4c1eab35e0e59226",
+      "name" : "退出课程日志",
+      "source" : "4c1eab35e0e59226.txt",
+      "type" : "text/plain",
+      "size" : 581620
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1598941535087,
+      "stop" : 1598941535599,
+      "duration" : 512
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "我的课程-退出课程测试"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "feature",
+    "value" : "我的课程模块测试内容"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase.mine_tab_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_course_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCourseCase"
+  }, {
+    "name" : "host",
+    "value" : "qinleideMacBook"
+  }, {
+    "name" : "thread",
+    "value" : "19331-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.mine_tab_case.test_course_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "smoke" ]
+  },
+  "source" : "a15bc34d305a07d1.json",
+  "parameterValues" : [ ]
+}

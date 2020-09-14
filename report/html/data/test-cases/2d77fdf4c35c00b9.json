@@ -1,0 +1,124 @@
+{
+  "uid" : "2d77fdf4c35c00b9",
+  "name" : "test_heart_rate",
+  "fullName" : "testcase.sport_tab_case.test_my_status_case.TestMyStatus#test_heart_rate",
+  "historyId" : "7348bcc11d7fe82e51e9abde9765512e",
+  "time" : {
+    "start" : 1598942096210,
+    "stop" : 1598942241031,
+    "duration" : 144821
+  },
+  "description" : "\n        测试运动-我的状态-心率数值和点击进入后数值\n        :return: 进入前后心率数值相同即为通过\n        ",
+  "descriptionHtml" : "<pre><code>    测试运动-我的状态-心率数值和点击进入后数值\n    :return: 进入前后心率数值相同即为通过\n</code></pre>\n",
+  "status" : "broken",
+  "statusMessage" : "TypeError: argument of type 'NoneType' is not iterable",
+  "statusTrace" : "self = <testcase.sport_tab_case.test_my_status_case.TestMyStatus object at 0x110f089a0>\n\n    @pytest.mark.smoke\n    def test_heart_rate(self):\n        \"\"\"\n        测试运动-我的状态-心率数值和点击进入后数值\n        :return: 进入前后心率数值相同即为通过\n        \"\"\"\n        get_before_heart_rate = self.my_status.get_before_heart_rate()\n        self.my_status.click_to_heart_rate_page()\n        time.sleep(1)\n        get_after_heart_rate = self.my_status.get_after_heart_rate()\n        self.my_status.save_screenshots(\"查看运动-我的状态-心率截图\")\n        self.logInfo.logEnd(\"查看运动-我的状态-心率日志\")\n        self.my_status.click_back_by_native(type=\"left_btn\")\n>       assert get_after_heart_rate in get_before_heart_rate\nE       TypeError: argument of type 'NoneType' is not iterable\n\ntestcase/sport_tab_case/test_my_status_case.py:79: TypeError",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1598942056328,
+      "stop" : 1598942084650,
+      "duration" : 28322
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "\n        测试运动-我的状态-心率数值和点击进入后数值\n        :return: 进入前后心率数值相同即为通过\n        ",
+    "status" : "broken",
+    "statusMessage" : "TypeError: argument of type 'NoneType' is not iterable",
+    "statusTrace" : "self = <testcase.sport_tab_case.test_my_status_case.TestMyStatus object at 0x110f089a0>\n\n    @pytest.mark.smoke\n    def test_heart_rate(self):\n        \"\"\"\n        测试运动-我的状态-心率数值和点击进入后数值\n        :return: 进入前后心率数值相同即为通过\n        \"\"\"\n        get_before_heart_rate = self.my_status.get_before_heart_rate()\n        self.my_status.click_to_heart_rate_page()\n        time.sleep(1)\n        get_after_heart_rate = self.my_status.get_after_heart_rate()\n        self.my_status.save_screenshots(\"查看运动-我的状态-心率截图\")\n        self.logInfo.logEnd(\"查看运动-我的状态-心率日志\")\n        self.my_status.click_back_by_native(type=\"left_btn\")\n>       assert get_after_heart_rate in get_before_heart_rate\nE       TypeError: argument of type 'NoneType' is not iterable\n\ntestcase/sport_tab_case/test_my_status_case.py:79: TypeError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ec2d017a42be4517",
+      "name" : "查看运动-我的状态-心率截图",
+      "source" : "ec2d017a42be4517.png",
+      "type" : "image/png",
+      "size" : 156087
+    }, {
+      "uid" : "99d8c6f9e6d9e250",
+      "name" : "查看运动-我的状态-心率日志",
+      "source" : "99d8c6f9e6d9e250.txt",
+      "type" : "text/plain",
+      "size" : 12382892
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1598942349836,
+      "stop" : 1598942350171,
+      "duration" : 335
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "运动模块-我的状态测试"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase.sport_tab_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_my_status_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestMyStatus"
+  }, {
+    "name" : "host",
+    "value" : "qinleideMacBook"
+  }, {
+    "name" : "thread",
+    "value" : "19331-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.sport_tab_case.test_my_status_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "smoke" ]
+  },
+  "source" : "2d77fdf4c35c00b9.json",
+  "parameterValues" : [ ]
+}

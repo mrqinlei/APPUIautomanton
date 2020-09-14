@@ -1,0 +1,261 @@
+"Status","Name","Duration in ms","Description"
+"passed","testcase.sport_tab_case.test_last_sleep_case.TestLastSleep#test_last_year_day_view","1820","
+        测试昨晚睡眠年统计视图
+        :return: 点击后若页面展示年睡眠统计即为pass
+        "
+"broken","testcase.mine_tab_case.test_my_dynamic_case.TestMyDynamic#test_dynamic_delete_post","0","
+        测试社区删帖功能
+        :return:删帖前当前帖子发布者名称与删帖后贴子发布者名称不同即为pass
+        "
+"passed","testcase.sport_tab_case.test_sport_case.TestSportCase#test_work_page","26964",""
+"passed","testcase.mine_tab_case.test_personal_homepage_case.TestPersonalHomepageCase#test_care","3799","
+        查看我的关注页面
+        :return: 是否成功查看我的关注页面
+        "
+"passed","testcase.mine_tab_case.test_friends_case.TestFriendsCase#test_care","8068","
+        跳转亲友详情页
+        :return: 是否成功跳转到亲友详情页面
+        "
+"passed","testcase.sport_tab_case.test_last_sleep_case.TestLastSleep#test_last_month_day_view","2392","
+        测试昨晚睡眠月统计视图
+        :return: 点击后若页面展示月睡眠统计即为pass
+        "
+"passed","testcase.mine_tab_case.test_user_case.TestUserCase#test_feed_back","5121","
+        提交意见反馈功能
+        :return: 提交意见反馈功能是否正常
+        "
+"passed","testcase.a_login_and_register_case.test_login_case.TestLoginCase#test_login_by_phone","25554","
+        手机号登录功能测试
+        :return:登录成功返回True
+        "
+"passed","testcase.sport_tab_case.test_today_steps_case.TestTodayStepsCase#test_share_month_count","5939","
+        测试今日步数月活动时长，活动历程，消耗千卡
+        :return: 分享前与分享后数值相等即为通过
+        "
+"passed","testcase.mine_tab_case.test_collect_case.TestCollectCase#test_collect_course_page","8006","
+        跳转课程tab下课程详情页
+        :return: 是否成功跳转到课程详情页面
+        "
+"passed","testcase.mine_tab_case.test_personal_homepage_case.TestPersonalHomepageCase#test_fans","3111","
+        查看我的粉丝页面
+        :return: 是否成功查看我的粉丝页面
+        "
+"passed","testcase.mine_tab_case.test_personal_homepage_case.TestPersonalHomepageCase#test_diary_page","5350","
+        查看个人主页-我的日记本跳转功能
+        :return: 是否成功跳转到我的日记本页面
+        "
+"passed","testcase.mine_tab_case.test_personal_homepage_case.TestPersonalHomepageCase#test_medal_page","5795","
+        查看个人主页-更多勋章按钮跳转功能
+        :return: 是否成功跳转到我的勋章页面
+        "
+"passed","testcase.sport_tab_case.test_my_status_case.TestMyStatus#test_body_fat","35668","
+        测试运动-我的状态-身体指数卡片跳转
+        :return:跳转前与跳转后身体指数相同即为通过
+        "
+"passed","testcase.mine_tab_case.test_course_case.TestCourseCase#test_add_course","9848","
+        添加课程
+        备注：当课程列表第一个为付费课程时，则无法添加课程
+        :return: 是否成功添加课程
+        "
+"passed","testcase.sport_tab_case.test_today_steps_case.TestTodayStepsCase#test_share","2273","
+        测试今日步数页面，点击分享按钮，跳转到分享页面，对两侧数值的一致性进行验证
+        :return: 两侧数据一致，PASS
+        "
+"passed","testcase.mine_tab_case.test_user_info_case.TestUserInfoCase#test_edit_brief","5027","
+        修改个人简介
+        :return:是否成功修改个人简介
+        "
+"passed","testcase.mine_tab_case.test_user_info_case.TestUserInfoCase#test_edit_sex","3314","
+        修改用户性别
+        :return:是否成功修改性别
+        "
+"broken","testcase.sport_tab_case.test_my_status_case.TestMyStatus#test_heart_rate","144821","
+        测试运动-我的状态-心率数值和点击进入后数值
+        :return: 进入前后心率数值相同即为通过
+        "
+"passed","testcase.mine_tab_case.test_my_dynamic_case.TestMyDynamic#test_dynamic_comment_post","5704","
+        测试对帖子评论功能
+        :return:帖子评论数为0时，评论后返回结果为1，或当前评论数>1时，返回结果为评论数+1即为通过
+        "
+"passed","testcase.mine_tab_case.test_user_case.TestUserCase#test_behavior_page","2894","
+        查看行为标注功能
+        :return: 查看行为标注是否正常
+        "
+"passed","testcase.sport_tab_case.test_my_status_case.TestMyStatus#test_balance","36577","
+        测试运动-我的状态-平衡性卡片跳转
+        :return: 点击前后页面平衡性一致即为通过
+        "
+"passed","testcase.mine_tab_case.test_course_case.TestCourseCase#test_exit_course","4743","
+        测试退出课程
+        :return:
+        "
+"passed","testcase.sport_tab_case.test_today_steps_case.TestTodayStepsCase#test_count_today_week_steps","3104","
+        测试今日步数统计页面每周点击切换结果
+        :return: 点击后页面可查找到符合结果特殊字符即为通过
+        "
+"passed","testcase.mine_tab_case.test_course_case.TestCourseCase#test_course_page","4492","
+        跳转课程详情页
+        :return: 是否成功跳转到课程详情页面
+        "
+"passed","testcase.mine_tab_case.test_message_case.TestMessageCase#test_click_to_notification","43276","
+        测试我的通知，通知页面
+        :return: 点击通知后正常跳转即为通过
+        "
+"passed","testcase.sport_tab_case.test_last_sleep_case.TestLastSleep#test_last_week_day_view","2061","
+        测试昨晚睡眠周统计视图
+        :return: 点击后若页面展示周睡眠统计即为pass
+        "
+"passed","testcase.sport_tab_case.test_my_sports_case.TestMySports#test_today_sports","3083","
+        测试运动模块-我的运动-今日运动进入前与进入后运动公里
+        :return:前后数值一致则为通过
+        "
+"passed","testcase.sport_tab_case.test_today_energy_case.TestTodayEnergyCase#test_today_energy","2031","
+        测试我的运动今日能量跳转
+        :return: 跳转前后数据一致即为通过
+        "
+"passed","testcase.sport_tab_case.test_my_status_case.TestMyStatus#test_pai_value","5130","
+        测试pai值我的状态页面展示数值与点击进入后数值
+        :return: 一致则通过
+        "
+"skipped","testcase.mine_tab_case.test_personal_homepage_case.TestPersonalHomepageCase#test_video_page","0","
+        查看个人主页-视频tab下帖子跳转功能
+        :return: 是否成功跳转到帖子页面
+        "
+"passed","testcase.sport_tab_case.test_my_sports_case.TestMySports#test_today_goal","2644","
+        测试运动模块-我的运动-今日达标进入前与进入后能量数值
+        :return:前后数值一致则为通过
+        "
+"passed","testcase.sport_tab_case.test_my_sports_case.TestMySports#test_today_steps_value","4562","
+        测试-运动模块-我的运动-今日步数-运动距离
+        :return: 步数展示-距离展示-今日展示
+        "
+"passed","testcase.sport_tab_case.test_sport_case.TestSportCase#test_steps_page","6541","
+        测试从首页点击步数，进入今日详情页，对两侧步数是否一致进行验证
+        :return: 两侧数据一致时，代表PASS
+        "
+"passed","testcase.mine_tab_case.test_my_dynamic_case.TestMyDynamic#test_dynamic_like_post","3527","
+        测试对社区帖子进行点赞
+        :return:若帖子点赞数为0则点赞后数量为1，若>0,则点赞后结果加一，或取消点赞，结果减一
+        "
+"passed","testcase.course_tab_case.test_train_case.TestJoinTrain#test_exit_train","4758","
+        退出训练课程
+        :return:
+        "
+"passed","testcase.sport_tab_case.test_today_steps_case.TestTodayStepsCase#test_share_day_count","48989","
+        测试今日步数日统计活动时长，活动历程，消耗千卡
+        :return: 分享前与分享后数值相等即为通过
+        "
+"passed","testcase.sport_tab_case.test_today_steps_case.TestTodayStepsCase#test_share_week_count","6487","
+        测试今日步数周活动时长，活动历程，消耗千卡
+        :return: 分享前与分享后数值相等即为通过
+        "
+"passed","testcase.sport_tab_case.test_my_status_case.TestMyStatus#test_press_value","4093","
+        测试运动-我的状态-压力值和点击进入后压力值
+        :return: 数值一致即为通过
+        "
+"passed","testcase.mine_tab_case.test_personal_homepage_case.TestPersonalHomepageCase#test_dynamic_page","8388","
+        查看个人主页-动态tab下帖子跳转功能
+        :return: 是否成功跳转到帖子页面
+        "
+"passed","testcase.mine_tab_case.test_course_case.TestCourseCase#test_add_pay_course","19269","
+        添加付费课程
+        :return: 调起收银台即为通过
+        "
+"passed","testcase.mine_tab_case.test_user_case.TestUserCase#test_third_page","3240","
+        查看第三方接入功能
+        :return: 查看第三方接入功能是否正常
+        "
+"passed","testcase.sport_tab_case.test_today_energy_case.TestTodayEnergyCase#test_week_energy","42787","
+        测试每周平均消耗活动能量
+        :return: 获取特殊字符""-""成功，即为通过
+        "
+"passed","testcase.sport_tab_case.test_sport_case.TestSportCase#test_outdoor_run_page","29019",""
+"passed","testcase.sport_tab_case.test_today_steps_case.TestTodayStepsCase#test_count_today_month_steps","2877","
+        测试今日步数统计页面每月点击切换结果
+        :return: 点击后页面可查找到符合结果特殊字符即为通过
+        "
+"passed","testcase.mine_tab_case.test_course_case.TestCourseCase#test_watch_course","10880","
+        测试观看课程
+        :return:播放视频后查找到播放视频整体surface元素即为通过
+        "
+"passed","testcase.course_tab_case.test_train_case.TestJoinTrain#test_judge_already_join_train","74964","
+        判断是否已有参加课程 若有则退出课程
+        :return:
+        "
+"passed","testcase.mine_tab_case.test_user_case.TestUserCase#test_mine_report","3990","
+        查看健康周报
+        :return: 是否成功查看健康周报页面
+        "
+"passed","testcase.sport_tab_case.test_my_sports_case.TestMySports#test_today_my_steps","3539","
+        测试运动模块-我的运动-今日步数进入前与进入后步数数值
+        :return: 一致即为通过
+        "
+"passed","testcase.course_tab_case.test_train_case.TestJoinTrain#test_join_train","42861","
+        添加训练课程，观看并退出
+        :return: 课程进入前后课程名称一致，并且播放成功即为通过
+        "
+"broken","testcase.mine_tab_case.test_message_case.TestMessageCase#test_click_to_message","7797","
+        测试我的消息，消息页面
+        :return:点击消息后可以正常跳转即为通过
+        "
+"passed","testcase.mine_tab_case.test_my_dynamic_case.TestMyDynamic#test_dynamic_page","8134","
+        查看个人主页-动态tab下帖子跳转功能
+        :return: 是否成功跳转到帖子页面
+        "
+"passed","testcase.mine_tab_case.test_user_case.TestUserCase#test_set_steps_goal","12699","
+        设置步数
+        :return: 是否成功设置步数
+        "
+"passed","testcase.sport_tab_case.test_my_sports_case.TestMySports#test_today_energy","4230","
+        测试运动模块-我的运动-今日能量进入前与进入后能量数值
+        :return:前后数值一致则为通过
+        "
+"passed","testcase.sport_tab_case.test_my_status_case.TestMyStatus#test_weight_kilogram","32999","
+        测试运动-我的状态-体重数值进入前与进入后
+        :return: 数值相同即为pass
+        "
+"passed","testcase.a_login_and_register_case.test_arecover_install_case.Test_Recover_Install#test_recover_install","7204",""
+"passed","testcase.sport_tab_case.test_last_sleep_case.TestLastSleep#test_last_sleep_day_view","2080","
+        测试昨晚睡眠日视图切换
+        :return:查找到睡眠得分即为通过
+        "
+"passed","testcase.mine_tab_case.test_personal_homepage_case.TestPersonalHomepageCase#test_edit_profile","1982","
+        查看个人主页-编辑资料按钮跳转功能
+        :return: 是否成功跳转到个人信息页面
+        "
+"passed","testcase.mine_tab_case.test_user_info_case.TestUserInfoCase#test_edit_nick_name","4609","
+        修改用户昵称
+        :return:是否成功修改昵称
+        "
+"passed","testcase.sport_tab_case.test_today_steps_case.TestTodayStepsCase#test_count_today_day_steps","2582","
+        测试今日步数统计页面每日点击切换结果
+        :return: 点击后页面可查找到符合结果特殊字符即为通过
+        "
+"passed","testcase.mine_tab_case.test_user_info_case.TestUserInfoCase#test_edit_nick_name","4885","
+        修改用户昵称
+        :return:是否成功修改昵称
+        "
+"passed","testcase.sport_tab_case.test_today_energy_case.TestTodayEnergyCase#test_month_energy","37172","
+        测试每月平均消耗活动能量
+        :return:
+        "
+"passed","testcase.mine_tab_case.test_user_info_case.TestUserInfoCase#test_edit_nick_name","4687","
+        修改用户昵称
+        :return:是否成功修改昵称
+        "
+"passed","testcase.sport_tab_case.test_my_sports_case.TestMySports#test_my_sports_show","1926","
+        运动模块-我的运动列表展示
+        :return:列表内展示：今日步数、今日运动、今日能量、连续达标
+        "
+"passed","testcase.mine_tab_case.test_collect_case.TestCollectCase#test_collect_post_page","6503","
+        跳转帖子tab下帖子详情页
+        :return: 是否成功跳转到帖子详情页面
+        "
+"passed","testcase.mine_tab_case.test_user_case.TestUserCase#test_setting_account","6893","
+        查看账号与安全
+        :return: 查看账号与安全是否正常
+        "
+"passed","testcase.mine_tab_case.test_user_case.TestUserCase#test_order_page","4535","
+        查看订单功能
+        :return: 查看订单功能是否正常
+        "

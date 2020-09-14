@@ -1,0 +1,119 @@
+{
+  "uid" : "27ac4feb684c77da",
+  "name" : "test_count_today_week_steps",
+  "fullName" : "testcase.sport_tab_case.test_today_steps_case.TestTodayStepsCase#test_count_today_week_steps",
+  "historyId" : "8a520d0ed0d170ab603548bbefdde157",
+  "time" : {
+    "start" : 1598942626742,
+    "stop" : 1598942629846,
+    "duration" : 3104
+  },
+  "description" : "\n        测试今日步数统计页面每周点击切换结果\n        :return: 点击后页面可查找到符合结果特殊字符即为通过\n        ",
+  "descriptionHtml" : "<pre><code>    测试今日步数统计页面每周点击切换结果\n    :return: 点击后页面可查找到符合结果特殊字符即为通过\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1598942547830,
+      "stop" : 1598942571738,
+      "duration" : 23908
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "\n        测试今日步数统计页面每周点击切换结果\n        :return: 点击后页面可查找到符合结果特殊字符即为通过\n        ",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "dfd0904a73d8e6cc",
+      "name" : "今日步数统计周页面截图",
+      "source" : "dfd0904a73d8e6cc.png",
+      "type" : "image/png",
+      "size" : 83252
+    }, {
+      "uid" : "a54913a3d7a9ed2c",
+      "name" : "今日步数根据周统计日志",
+      "source" : "a54913a3d7a9ed2c.txt",
+      "type" : "text/plain",
+      "size" : 2833907
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1598942647001,
+      "stop" : 1598942647855,
+      "duration" : 854
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "测试今日步数模块"
+  }, {
+    "name" : "story",
+    "value" : "今日步数-周统计页面测试"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase.sport_tab_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_today_steps_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestTodayStepsCase"
+  }, {
+    "name" : "host",
+    "value" : "qinleideMacBook"
+  }, {
+    "name" : "thread",
+    "value" : "19331-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.sport_tab_case.test_today_steps_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "smoke" ]
+  },
+  "source" : "27ac4feb684c77da.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,122 @@
+{
+  "uid" : "9d61989dcbfea2bd",
+  "name" : "test_add_pay_course",
+  "fullName" : "testcase.mine_tab_case.test_course_case.TestCourseCase#test_add_pay_course",
+  "historyId" : "3796dfc01795343e6cfdda7c9aeb7b77",
+  "time" : {
+    "start" : 1598941515815,
+    "stop" : 1598941535084,
+    "duration" : 19269
+  },
+  "description" : "\n        添加付费课程\n        :return: 调起收银台即为通过\n        ",
+  "descriptionHtml" : "<pre><code>    添加付费课程\n    :return: 调起收银台即为通过\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1598941463734,
+      "stop" : 1598941482730,
+      "duration" : 18996
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "\n        添加付费课程\n        :return: 调起收银台即为通过\n        ",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d55a85f2ca19d93d",
+      "name" : "查看购买付费课程页截图",
+      "source" : "d55a85f2ca19d93d.png",
+      "type" : "image/png",
+      "size" : 122995
+    }, {
+      "uid" : "f91a0b24ed441ed3",
+      "name" : "查看购买付费课程页日志",
+      "source" : "f91a0b24ed441ed3.txt",
+      "type" : "text/plain",
+      "size" : 2062531
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1598941535087,
+      "stop" : 1598941535599,
+      "duration" : 512
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "我的课程-添加付费课程测试"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "feature",
+    "value" : "我的课程模块测试内容"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase.mine_tab_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_course_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCourseCase"
+  }, {
+    "name" : "host",
+    "value" : "qinleideMacBook"
+  }, {
+    "name" : "thread",
+    "value" : "19331-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.mine_tab_case.test_course_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "smoke" ]
+  },
+  "source" : "9d61989dcbfea2bd.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,131 @@
+{
+  "uid" : "c13caedf5df5d998",
+  "name" : "test_steps_page",
+  "fullName" : "testcase.sport_tab_case.test_sport_case.TestSportCase#test_steps_page",
+  "historyId" : "47b868f9da2ce7301762c314954d19f7",
+  "time" : {
+    "start" : 1598942375310,
+    "stop" : 1598942381851,
+    "duration" : 6541
+  },
+  "description" : "\n        测试从首页点击步数，进入今日详情页，对两侧步数是否一致进行验证\n        :return: 两侧数据一致时，代表PASS\n        ",
+  "descriptionHtml" : "<pre><code>    测试从首页点击步数，进入今日详情页，对两侧步数是否一致进行验证\n    :return: 两侧数据一致时，代表PASS\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1598942350177,
+      "stop" : 1598942372000,
+      "duration" : 21823
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "\n        测试从首页点击步数，进入今日详情页，对两侧步数是否一致进行验证\n        :return: 两侧数据一致时，代表PASS\n        ",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "8b9378fe65d498a6",
+      "name" : "进入今日步数详情页截图",
+      "source" : "8b9378fe65d498a6.png",
+      "type" : "image/png",
+      "size" : 175997
+    }, {
+      "uid" : "b901ea9a1603d33f",
+      "name" : "进入今日步数详情页日志",
+      "source" : "b901ea9a1603d33f.txt",
+      "type" : "text/plain",
+      "size" : 3817342
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1598942439052,
+      "stop" : 1598942439402,
+      "duration" : 350
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "Blocker"
+  }, {
+    "name" : "feature",
+    "value" : "运动模块测试内容"
+  }, {
+    "name" : "story",
+    "value" : "首页点击步数进入今日步数页面测试"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "tag",
+    "value" : "sportP0"
+  }, {
+    "name" : "tag",
+    "value" : "release"
+  }, {
+    "name" : "tag",
+    "value" : "core"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase.sport_tab_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_sport_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestSportCase"
+  }, {
+    "name" : "host",
+    "value" : "qinleideMacBook"
+  }, {
+    "name" : "thread",
+    "value" : "19331-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.sport_tab_case.test_sport_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "core", "release", "smoke", "sportP0" ]
+  },
+  "source" : "c13caedf5df5d998.json",
+  "parameterValues" : [ ]
+}

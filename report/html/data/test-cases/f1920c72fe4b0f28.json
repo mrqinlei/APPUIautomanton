@@ -1,0 +1,113 @@
+{
+  "uid" : "f1920c72fe4b0f28",
+  "name" : "test_recover_install",
+  "fullName" : "testcase.a_login_and_register_case.test_arecover_install_case.Test_Recover_Install#test_recover_install",
+  "historyId" : "2ab692fa4ab5774c6268f3916f495686",
+  "time" : {
+    "start" : 1598941243787,
+    "stop" : 1598941250991,
+    "duration" : 7204
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1598941243778,
+      "stop" : 1598941243782,
+      "duration" : 4
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "99f50a3be13f1bd3",
+      "name" : "stdout",
+      "source" : "99f50a3be13f1bd3.txt",
+      "type" : "text/plain",
+      "size" : 25
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1598941250994,
+      "stop" : 1598941250994,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "block"
+  }, {
+    "name" : "story",
+    "value" : "覆盖安装测试"
+  }, {
+    "name" : "feature",
+    "value" : "覆盖安装测试"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase.a_login_and_register_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_arecover_install_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Recover_Install"
+  }, {
+    "name" : "host",
+    "value" : "qinleideMacBook"
+  }, {
+    "name" : "thread",
+    "value" : "19331-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.a_login_and_register_case.test_arecover_install_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "smoke" ]
+  },
+  "source" : "f1920c72fe4b0f28.json",
+  "parameterValues" : [ ]
+}

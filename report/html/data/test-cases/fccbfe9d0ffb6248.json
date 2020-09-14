@@ -1,0 +1,119 @@
+{
+  "uid" : "fccbfe9d0ffb6248",
+  "name" : "test_month_energy",
+  "fullName" : "testcase.sport_tab_case.test_today_energy_case.TestTodayEnergyCase#test_month_energy",
+  "historyId" : "a60e1fa57f6dfce168de70f237eaf11b",
+  "time" : {
+    "start" : 1598942509915,
+    "stop" : 1598942547087,
+    "duration" : 37172
+  },
+  "description" : "\n        测试每月平均消耗活动能量\n        :return:\n        ",
+  "descriptionHtml" : "<pre><code>    测试每月平均消耗活动能量\n    :return:\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1598942439406,
+      "stop" : 1598942465052,
+      "duration" : 25646
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "\n        测试每月平均消耗活动能量\n        :return:\n        ",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "31efd13a3e3aca51",
+      "name" : "今日运动每月平均消耗能量截图",
+      "source" : "31efd13a3e3aca51.png",
+      "type" : "image/png",
+      "size" : 176435
+    }, {
+      "uid" : "7047019a71057333",
+      "name" : "今日运动每月平均消耗能量能量日志",
+      "source" : "7047019a71057333.txt",
+      "type" : "text/plain",
+      "size" : 3350484
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1598942547089,
+      "stop" : 1598942547825,
+      "duration" : 736
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "运动模块我的运动今日能量测试内容"
+  }, {
+    "name" : "story",
+    "value" : "我的能量月统计测试"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase.sport_tab_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_today_energy_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestTodayEnergyCase"
+  }, {
+    "name" : "host",
+    "value" : "qinleideMacBook"
+  }, {
+    "name" : "thread",
+    "value" : "19331-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.sport_tab_case.test_today_energy_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "smoke" ]
+  },
+  "source" : "fccbfe9d0ffb6248.json",
+  "parameterValues" : [ ]
+}

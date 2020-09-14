@@ -1,0 +1,102 @@
+{
+  "uid" : "541431aad9afe5a2",
+  "name" : "test_judge_already_join_train",
+  "fullName" : "testcase.course_tab_case.test_train_case.TestJoinTrain#test_judge_already_join_train",
+  "historyId" : "f1fea0d6d67a864fd6ebf11460bb2dab",
+  "time" : {
+    "start" : 1598941302404,
+    "stop" : 1598941377368,
+    "duration" : 74964
+  },
+  "description" : "\n        判断是否已有参加课程 若有则退出课程\n        :return:\n        ",
+  "descriptionHtml" : "<pre><code>    判断是否已有参加课程 若有则退出课程\n    :return:\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1598941282060,
+      "stop" : 1598941302387,
+      "duration" : 20327
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1598941425026,
+      "stop" : 1598941425339,
+      "duration" : 313
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "测试参加训练课程模块"
+  }, {
+    "name" : "story",
+    "value" : "判断是否已参加训练课程"
+  }, {
+    "name" : "severity",
+    "value" : "Normal"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase.course_tab_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_train_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestJoinTrain"
+  }, {
+    "name" : "host",
+    "value" : "qinleideMacBook"
+  }, {
+    "name" : "thread",
+    "value" : "19331-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.course_tab_case.test_train_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "run(order=1)", "smoke" ]
+  },
+  "source" : "541431aad9afe5a2.json",
+  "parameterValues" : [ ]
+}

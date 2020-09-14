@@ -1,0 +1,57 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.InvalidSessionIdException: Message: A session is either terminated or not started",
+      "children" : [ {
+        "name" : "test_click_to_message",
+        "uid" : "3cb3ef7e977f7d2a",
+        "parentUid" : "600c23cf6f0d20dba613ec2f66a6b87a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1598941685618,
+          "stop" : 1598941693415,
+          "duration" : 7797
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "600c23cf6f0d20dba613ec2f66a6b87a"
+    }, {
+      "name" : "urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))",
+      "children" : [ {
+        "name" : "test_dynamic_delete_post",
+        "uid" : "95b92b53e08096be",
+        "parentUid" : "560004cce12d8158c4a71927cf07ede0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1598941793200,
+          "stop" : 1598941793200,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "560004cce12d8158c4a71927cf07ede0"
+    }, {
+      "name" : "TypeError: argument of type 'NoneType' is not iterable",
+      "children" : [ {
+        "name" : "test_heart_rate",
+        "uid" : "2d77fdf4c35c00b9",
+        "parentUid" : "e9db08476fd0716ac0709ac5baab340a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1598942096210,
+          "stop" : 1598942241031,
+          "duration" : 144821
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e9db08476fd0716ac0709ac5baab340a"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}

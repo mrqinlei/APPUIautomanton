@@ -1,0 +1,125 @@
+{
+  "uid" : "ccb2a4b0512214ea",
+  "name" : "test_join_train",
+  "fullName" : "testcase.course_tab_case.test_train_case.TestJoinTrain#test_join_train",
+  "historyId" : "466d7db1c4d3b864eb9c1f39c8c56452",
+  "time" : {
+    "start" : 1598941377391,
+    "stop" : 1598941420252,
+    "duration" : 42861
+  },
+  "description" : "\n        添加训练课程，观看并退出\n        :return: 课程进入前后课程名称一致，并且播放成功即为通过\n        ",
+  "descriptionHtml" : "<pre><code>    添加训练课程，观看并退出\n    :return: 课程进入前后课程名称一致，并且播放成功即为通过\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1598941282060,
+      "stop" : 1598941302387,
+      "duration" : 20327
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "\n        添加训练课程，观看并退出\n        :return: 课程进入前后课程名称一致，并且播放成功即为通过\n        ",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "5a2afbf9bcb02f33",
+      "name" : "课程tab初次参加训练截图",
+      "source" : "5a2afbf9bcb02f33.png",
+      "type" : "image/png",
+      "size" : 281715
+    }, {
+      "uid" : "351a734ffd1d1867",
+      "name" : "课程tab初次参加训练日志",
+      "source" : "351a734ffd1d1867.txt",
+      "type" : "text/plain",
+      "size" : 8854961
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1598941425026,
+      "stop" : 1598941425339,
+      "duration" : 313
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "测试参加训练课程模块"
+  }, {
+    "name" : "severity",
+    "value" : "Normal"
+  }, {
+    "name" : "story",
+    "value" : "参加训练课程观看并退出观看"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=2)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase.course_tab_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_train_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestJoinTrain"
+  }, {
+    "name" : "host",
+    "value" : "qinleideMacBook"
+  }, {
+    "name" : "thread",
+    "value" : "19331-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.course_tab_case.test_train_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "run(order=2)", "smoke" ]
+  },
+  "source" : "ccb2a4b0512214ea.json",
+  "parameterValues" : [ ]
+}
