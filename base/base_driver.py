@@ -17,7 +17,8 @@ class BaseDriver:
         # port = write_file.get_value('user_info_'+str(i), 'port')
         caps = {}
         caps["platformName"] = "android"
-        caps["deviceName"] = " 10.1.14.146:5555"
+        # caps["deviceName"] = "10.1.14.146:5555"
+        caps["deviceName"] = os.environ["deviceName"]
         # caps["deviceName"] = "T8KVCE7P595SZ9VK"
         # caps["deviceName"] = deviceName
         caps["appPackage"] = "com.xiaomi.hm.health"
