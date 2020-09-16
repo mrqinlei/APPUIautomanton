@@ -23,7 +23,7 @@ class TestUserInfoCase:
         else:
             pass
         self.logInfo = LogInfo()
-
+    @pytest.mark.todisplay
     @allure.story("修改昵称功能测试")
     @allure.severity('Blocker')
     @allure.issue('http://www.baidu.com', "问题")
@@ -50,6 +50,7 @@ class TestUserInfoCase:
         self.logInfo.logEnd("修改昵称日志")
         assert nick_name_before != nick_name_middle
 
+    @pytest.mark.todisplay
     @allure.story("修改性别功能测试")
     @allure.severity('Blocker')
     @allure.issue('http://www.baidu.com', "问题")
@@ -72,9 +73,7 @@ class TestUserInfoCase:
         self.logInfo.logEnd("修改性别日志")
         assert sex_value != sex_value_after
 
-
-
-
+    @pytest.mark.todisplay
     @allure.story("修改身高功能测试")
     @allure.severity('Blocker')
     @allure.issue('http://www.baidu.com', "问题")

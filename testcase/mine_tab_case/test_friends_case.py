@@ -22,6 +22,7 @@ class TestFriendsCase:
             pass
         self.logInfo = LogInfo()
 
+    @pytest.mark.todisplay
     @allure.story("亲友-亲友详情页测试")
     @allure.severity('critical')
     @allure.issue('http://www.baidu.com', '问题')
