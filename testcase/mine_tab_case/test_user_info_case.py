@@ -138,4 +138,5 @@ class TestUserInfoCase:
     @classmethod
     def teardown_class(cls):
         # cls.user_info.click_back_by_native(type='left')
-        cls.user_info.driver.quit()
+        # cls.user_info.driver.quit()
+        pass
