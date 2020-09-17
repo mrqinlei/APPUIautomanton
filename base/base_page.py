@@ -312,6 +312,7 @@ class BasePage:
 
     #滑动屏幕
     def swipe_on(self, direction=None):
+        time.sleep(1)
         if direction == 'up':
             self._swipe_up()
         elif direction == 'down':
