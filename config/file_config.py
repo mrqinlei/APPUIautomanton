@@ -10,7 +10,7 @@ class FileConfig:
         # 获取电脑系统平台
         self.computer_sys = sys.platform
         # self.path = os.path.abspath(os.path.dirname(__file__)).split('MiFitAndroid')[0]
-        self.path = os.path.abspath(os.path.dirname(__file__))
+        self.path = os.path.abspath(os.path.dirname(__file__)).split('config')[0]
         # 项目路径
         # self.project_path = self.path + 'MiFitAndroid'
         self.project_path = self.path
