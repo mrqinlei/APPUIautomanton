@@ -9,9 +9,11 @@ class FileConfig:
     def __init__(self):
         # 获取电脑系统平台
         self.computer_sys = sys.platform
-        self.path = os.path.abspath(os.path.dirname(__file__)).split('MiFitAndroid')[0]
+        # self.path = os.path.abspath(os.path.dirname(__file__)).split('MiFitAndroid')[0]
+        self.path = os.path.abspath(os.path.dirname(__file__))
         # 项目路径
-        self.project_path = self.path + 'MiFitAndroid'
+        # self.project_path = self.path + 'MiFitAndroid'
+        self.project_path = self.path
 
     def get_path(self, type="report_path"):
         self.report_path = ""
