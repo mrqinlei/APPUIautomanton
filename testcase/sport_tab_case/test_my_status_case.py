@@ -25,6 +25,7 @@ class TestMyStatus():
         self.logInfo = LogInfo()
 
     @pytest.mark.smoke
+    @pytest.mark.skip(reason="滑动到指定元素的方法还需要优化，此用例跳过")
     def test_pai_value(self):
         """
         测试pai值我的状态页面展示数值与点击进入后数值
@@ -36,8 +37,7 @@ class TestMyStatus():
         judge_if_pai_guide_exist = self.my_status.find_pai_guide_element()
         if judge_if_pai_guide_exist is not None:
             self.my_status.swipe_on("up")
-        else:
-            pass
+
         get_after_all_pai_value = self.my_status.get_after_all_pai_value()
         get_after_today_pai_value = self.my_status.get_after_today_pai_value()
         get_after_today_pai_value = get_after_today_pai_value.split("P")[0]
@@ -114,6 +114,7 @@ class TestMyStatus():
 
 
     @pytest.mark.smoke
+    @pytest.mark.skip(reason="滑动到指定元素的方法还需要优化，此用例跳过")
     def test_weight_kilogram(self):
         """
         测试运动-我的状态-体重数值进入前与进入后
@@ -133,6 +134,7 @@ class TestMyStatus():
         由于体重元素不在屏幕展示范围内，需要先执行滑动，再查找元素 待解决
         '''
     @pytest.mark.smoke
+    @pytest.mark.skip(reason="滑动到指定元素的方法还需要优化，此用例跳过")
     def test_body_fat(self):
         """
         测试运动-我的状态-身体指数卡片跳转
@@ -150,6 +152,7 @@ class TestMyStatus():
         assert before_body_fat in after_body_fat
 
     @pytest.mark.smoke
+    @pytest.mark.skip(reason="滑动到指定元素的方法还需要优化，此用例跳过")
     def test_balance(self):
         """
         测试运动-我的状态-平衡性卡片跳转

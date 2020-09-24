@@ -9,4 +9,5 @@ class TestPaiValue():
     """
     pai值模块测试
     """
+    pass
 

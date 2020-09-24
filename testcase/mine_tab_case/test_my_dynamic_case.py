@@ -55,6 +55,7 @@ class TestMyDynamic:
         before_press_like_btn = self.dynamic.get_like_btn_value()
         if before_press_like_btn == "点赞":
             self.dynamic.click_like_btn()
+            time.sleep(1)
             after_press_like_btn = self.dynamic.get_like_btn_value()
             self.dynamic.save_screenshots("社区tab帖子点赞功能截图")
             self.logInfo.logEnd("社区tab帖子点赞功能日志")
@@ -64,6 +65,7 @@ class TestMyDynamic:
             self.dynamic.save_screenshots("社区tab帖子点赞功能截图")
             self.logInfo.logEnd("社区tab帖子点赞功能日志")
             self.dynamic.click_like_btn()
+            time.sleep(1)
             after_press_like_btn = int(self.dynamic.get_like_btn_value())
             assert after_press_like_btn == before_press_like_btn + 1 \
                    or after_press_like_btn == before_press_like_btn - 1

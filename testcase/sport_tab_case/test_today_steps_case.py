@@ -86,7 +86,7 @@ class TestTodayStepsCase:
         self.todaySteps.save_screenshots("今日步数统计日页面分享截图")
         self.logInfo.logEnd("今日步数根据日统计分享")
         self.todaySteps.day_share_back_btn()
-        self.todaySteps.click_back_by_native(type="title")
+        self.todaySteps.click_back_by_native(type="left_btn")
         self.todaySteps.click_back_by_native(type="left_btn")
         assert day_active_steps in share_active_steps and \
                share_active_miles == day_active_miles and day_active_carolie == share_active_carolie
