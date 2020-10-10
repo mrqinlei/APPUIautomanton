@@ -9,7 +9,7 @@ from config.file_config import FileConfig
 """
 
 
-@pytest.skip
+@pytest.mark.skip
 @allure.feature("覆盖安装测试")
 class Test_Recover_Install:
 
