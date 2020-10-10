@@ -13,7 +13,7 @@ from config.file_config import FileConfig
 若已经安装，则卸载后再安装
 """
 
-
+@pytest.skip
 @allure.feature("覆盖安装测试")
 class Test_New_install:
 

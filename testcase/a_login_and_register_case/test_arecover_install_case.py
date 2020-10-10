@@ -4,12 +4,12 @@ from utils.log_info import LogInfo
 import pytest
 from config.file_config import FileConfig
 
-
 """
 此模块用于覆盖安装小米运动apk，路径为根目录下小米运动apk包
 """
 
 
+@pytest.skip
 @allure.feature("覆盖安装测试")
 class Test_Recover_Install:
 

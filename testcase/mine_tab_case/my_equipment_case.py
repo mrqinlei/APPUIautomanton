@@ -22,6 +22,7 @@ class TestMyEquipmentCase:
         #     pass
         self.logInfo = LogInfo()
 
+    @pytest.skip
     # @pytest.mark.smoke
     def test_my_bus_card(self):
         """
