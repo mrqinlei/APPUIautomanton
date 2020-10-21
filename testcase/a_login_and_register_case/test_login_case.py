@@ -26,7 +26,7 @@ class TestLoginCase:
         # pass
 
     @pytest.mark.parametrize("username, password", [
-        ("13520303084", "1234qwer")
+        ("18601331124", "huami001")
         # ("13522028106", "529614wwy"),
         # ("13269115357", "Zx13269115357")
     ])

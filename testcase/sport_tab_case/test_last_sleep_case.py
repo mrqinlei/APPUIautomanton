@@ -27,7 +27,7 @@ class TestLastSleep:
     @allure.story("昨晚睡眠-视图切换页面测试")
     @allure.severity('Blocker')
     @pytest.mark.sleepNormal
-    @pytest.mark.smoke
+    #@pytest.mark.smoke
     def test_last_sleep_day_view(self):
         """
         测试昨晚睡眠日视图切换
@@ -40,7 +40,7 @@ class TestLastSleep:
         self.logInfo.logEnd("昨晚睡眠页面日视图日志")
         assert last_sleep_score is not None and edit_icon is not None
 
-    @pytest.mark.smoke
+    #@pytest.mark.smoke
     def test_last_week_day_view(self):
         """
         测试昨晚睡眠周统计视图
@@ -52,7 +52,7 @@ class TestLastSleep:
         self.logInfo.logEnd("昨晚睡眠页面周视图日志")
         assert click_week_result == "周睡眠统计"
 
-    @pytest.mark.smoke
+    #@pytest.mark.smoke
     def test_last_month_day_view(self):
         """
         测试昨晚睡眠月统计视图
@@ -64,7 +64,7 @@ class TestLastSleep:
         self.logInfo.logEnd("昨晚睡眠页面月视图日志")
         assert click_month_result == "月睡眠统计"
 
-    @pytest.mark.smoke
+    #@pytest.mark.smoke
     def test_last_year_day_view(self):
         """
         测试昨晚睡眠年统计视图
