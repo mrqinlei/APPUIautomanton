@@ -131,7 +131,6 @@ class MainPage(BasePage):
         # 跳转到运动-我的状态-昨晚睡眠页面
         self.find_element_and_click("sport_tab", "main_page_element")
         self.find_element_and_click("more_btn", "main_page_element")
-        self.swipe_on("up_middle")
         self.find_element_and_click("before_sleep_time", "my_status_page_element")
         return MyStatusSleepPage(self.driver)
 

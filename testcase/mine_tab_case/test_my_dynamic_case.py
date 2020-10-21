@@ -33,11 +33,11 @@ class TestMyDynamic:
         查看个人主页-动态tab下帖子跳转功能
         :return: 是否成功跳转到帖子页面
         """
-        time.sleep(2)
+        time.sleep(1)
         first_name = self.dynamic.get_first_post_name()
         self.dynamic.to_post_page()
-        time.sleep(3)
-        self.dynamic.swipe_on('down')
+        time.sleep(1)
+        self.dynamic.swipe_on(direction='down')
         nick_name = self.dynamic.get_publisher_name()
         self.dynamic.save_screenshots("查看个人主页-动态tab下帖子跳转功能截图")
         self.logInfo.logEnd("查看个人主页-动态tab下帖子跳转功能日志")

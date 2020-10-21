@@ -47,6 +47,7 @@ class TestMySports:
         测试-运动模块-我的运动-今日步数-运动距离
         :return: 步数展示-距离展示-今日展示
         """
+        self.my_sports.swipe_on(direction="down")
         get_before_today_steps = self.my_sports.get_before_today_steps()
         get_before_today_steps = get_before_today_steps.split(' ')[1]
         get_before_today_steps_distance = self.my_sports.get_before_today_steps_miles()
@@ -120,7 +121,7 @@ class TestMySports:
         测试运动模块-我的运动-今日达标进入前与进入后能量数值
         :return:前后数值一致则为通过
         """
-        self.my_sports.swipe_on(direction="down")
+        self.my_sports.swipe_on(direction="up")
         get_before_goal_value = self.my_sports.get_before_goal()
         get_before_goal_value = get_before_goal_value.split(" ")[1]
         self.my_sports.click_to_goal_page()

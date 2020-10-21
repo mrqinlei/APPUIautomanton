@@ -25,12 +25,13 @@ class TestMyStatus():
         self.logInfo = LogInfo()
 
     @pytest.mark.smoke
-    @pytest.mark.skip(reason="滑动到指定元素的方法还需要优化，此用例跳过")
+    # @pytest.mark.skip(reason="滑动到指定元素的方法还需要优化，此用例跳过")
     def test_pai_value(self):
         """
         测试pai值我的状态页面展示数值与点击进入后数值
         :return: 一致则通过
         """
+        self.my_status.swipe_on(direction="up")
         get_before_all_pai_value = self.my_status.get_before_pai_value()
         get_before_today_pai_value = self.my_status.get_today_pai_value()
         self.my_status.click_to_pai_page()
@@ -54,6 +55,7 @@ class TestMyStatus():
         测试运动-我的状态-压力值和点击进入后压力值
         :return: 数值一致即为通过
         """
+        self.my_status.swipe_on(direction="down")
         get_before_press = self.my_status.get_before_recent_press()
         self.my_status.click_to_press_page()
         get_after_press = self.my_status.get_after_recent_press()
@@ -80,6 +82,7 @@ class TestMyStatus():
 
 
     # @pytest.mark.smoke    #展示用暂时注释，需考虑无数据时场景
+    @pytest.mark.skip(reason="暂无睡眠数据")
     def test_last_sleep(self):
         """
         测试运动-我的状态-睡眠卡片跳转
@@ -97,6 +100,7 @@ class TestMyStatus():
         assert get_before_sleep_time == get_after_sleep_time
 
     # @pytest.mark.smoke  #演示原因 暂时注释
+    @pytest.mark.skip(reason="暂无睡眠数据")
     def test_a_few_sleep(self):
         """
         测试运动-我的状态-零星小睡跳转
@@ -121,7 +125,8 @@ class TestMyStatus():
         :return: 数值相同即为pass
         """
         # self.my_status.swipe_to_bottle()
-        self.my_status.find_before_weight_value()
+        self.my_status.swipe_on(direction="down")
+        # self.my_status.find_before_weight_value()
         get_before_weight = self.my_status.get_before_weight_value()
         self.my_status.click_to_weight_page()
         time.sleep(1)

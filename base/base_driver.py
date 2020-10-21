@@ -36,6 +36,8 @@ class BaseDriver:
         #     print("udid = %s" % udid)
 
         cls.driver = webdriver.Remote("http://10.1.18.128:4723/wd/hub",caps)
+        # cls.driver = webdriver.Remote("http://127.0.0.1:4723/wd/hub",caps)
+
         cls.driver.implicitly_wait(10)
         return MainPage(cls.driver)
 
