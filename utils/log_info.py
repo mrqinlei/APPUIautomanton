@@ -37,7 +37,7 @@ class LogInfo:
             self.file = file_object.read()
         finally:
             allure.attach(self.file, log_doc, allure.attachment_type.TEXT)
-            clear_logcat = "sudo docker exec -i $"+self.deviceBrandName+"adb"+"logcat -c"
+            clear_logcat = "sudo docker exec -i $"+self.deviceBrandName+"adb logcat -c"
             # clear_logcat = "adb logcat -c"
             self.dos_cmd.excute_cmd(clear_logcat)
             file_object.close()
