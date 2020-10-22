@@ -19,7 +19,7 @@ class LogInfo:
         self.file_path = FileConfig().get_path(type="logs") + self.filename
         self.logcat_file = open(self.file_path, 'w')
         # logcmd = "adb logcat -v time"
-        logcmd =  "sudo docker exec - i $"+self.deviceBrandName+"adb logcat -v time"
+        logcmd =  "sudo docker exec - i $"+self.deviceBrandName+" adb logcat -v time"
         # logcmd = "adb logcat -v time"
         self.Poplog = subprocess.Popen(logcmd, shell=True, stdout=self.logcat_file, stderr=subprocess.PIPE)
         # dos_cmd.excute_cmd(logcmd)
@@ -37,7 +37,7 @@ class LogInfo:
             self.file = file_object.read()
         finally:
             allure.attach(self.file, log_doc, allure.attachment_type.TEXT)
-            clear_logcat = "sudo docker exec -i $"+self.deviceBrandName+"adb logcat -c"
+            clear_logcat = "sudo docker exec -i $"+self.deviceBrandName+" adb logcat -c"
             # clear_logcat = "adb logcat -c"
             self.dos_cmd.excute_cmd(clear_logcat)
             file_object.close()
