@@ -34,7 +34,7 @@ class TestLoginCase:
     @allure.severity('Blocker')
     @allure.issue('http://www.baidu.com',"问题")
     @allure.testcase('http://www.sina.com', '测试用例')
-    @pytest.mark.smoke
+    # @pytest.mark.smoke
     @pytest.mark.loginAndRigisterP0
     @pytest.mark.core
     @pytest.mark.release
