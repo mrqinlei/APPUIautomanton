@@ -15,6 +15,7 @@ class BaseDriver:
         # write_file = WriteUserCommand()
         # deviceName = write_file.get_value('user_info_'+str(i), 'deviceName')
         # port = write_file.get_value('user_info_'+str(i), 'port')
+        Initialization = os.environ["deviceName"]
         caps = {}
         caps["platformName"] = "android"
         # caps["deviceName"] = "10.1.14.146:5555"
@@ -26,8 +27,12 @@ class BaseDriver:
         caps["autoGrantPermissions"] = True
         caps["showChromedriverLog"] = True
         caps["noReset"] = True
-        caps["skipServerInstallation"] = False
-        caps["skipDeviceInitialization"] = False
+        if Initialization == True:
+            caps["skipServerInstallation"] = False
+            caps["skipDeviceInitialization"] = False
+        else:
+            caps["skipServerInstallation"] = True
+            caps["skipDeviceInitialization"] = True
         caps["automationName"] = "UiAutomator2"
         caps["newCommandTimeout"] = "600"
         # udid = os.getenv("UDID", None)
