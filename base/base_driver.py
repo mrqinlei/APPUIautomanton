@@ -26,8 +26,8 @@ class BaseDriver:
         caps["autoGrantPermissions"] = True
         caps["showChromedriverLog"] = True
         caps["noReset"] = True
-        caps["skipServerInstallation"] = True
-        caps["skipDeviceInitialization"] = True
+        caps["skipServerInstallation"] = False
+        caps["skipDeviceInitialization"] = False
         caps["automationName"] = "UiAutomator2"
         caps["newCommandTimeout"] = "600"
         # udid = os.getenv("UDID", None)
