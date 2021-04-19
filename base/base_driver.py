@@ -15,7 +15,7 @@ class BaseDriver:
         # write_file = WriteUserCommand()
         # deviceName = write_file.get_value('user_info_'+str(i), 'deviceName')
         # port = write_file.get_value('user_info_'+str(i), 'port')
-        Initialization = os.environ["deviceName"]
+        Initialization = os.environ["Initialization"]
         caps = {}
         caps["platformName"] = "android"
         # caps["deviceName"] = "10.1.14.146:5555"
